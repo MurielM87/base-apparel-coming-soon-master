@@ -1,0 +1,19 @@
+#container {
+  position: relative;
+  @include flex-column-center;
+
+  #card {
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+      @include flex-row-center;
+      margin: 60px;
+    }
+
+    #card_text {
+      @media screen and (min-width: map-get($breakpoints, desktop)) {
+        @include flex-row-space;
+        width: 80%;
+        margin: auto;
+      }
+    }
+  }
+}

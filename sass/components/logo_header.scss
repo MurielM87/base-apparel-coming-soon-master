@@ -1,0 +1,9 @@
+#logo_header {
+    width: 30%;
+    margin: 20px;
+
+    @media screen and (min-width: map-get($breakpoints, desktop)) {
+        width: 250px;
+        margin-top: 20px
+    }
+}

@@ -1,0 +1,17 @@
+@import "bases/normalize.scss";
+
+@import "utils/responsive.scss";
+@import "utils/variables.scss";
+@import "utils/mixins.scss";
+
+@import "bases/body.scss";
+
+@import "layout/footer.scss";
+
+@import "components/background_desktop.scss";
+@import "components/logo_header.scss";
+@import "components/hero_img.scss";
+@import "components/description.scss";
+@import "components/input_contact.scss";
+
+@import "pages/card.scss";

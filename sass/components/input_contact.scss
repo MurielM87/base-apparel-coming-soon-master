@@ -1,0 +1,54 @@
+#input_contact {
+    position: relative;
+    text-align: center;
+
+    input {
+        width: 80%;
+        margin: 20px;
+        font-size: 16px;
+        border-radius: 25px;
+        padding: 8px 10px;
+        color: $desaturated_red;
+        border: 1px solid $desaturated_red;
+    }
+
+    #error_icon {
+        display: none;
+        position: absolute;
+        top: 25px;
+        right: 25%;
+    }
+    .error {
+        border : 1px solid $soft_red;
+    }
+
+    input.error::placeholder {
+        color: black;
+    }
+
+    .fas {
+        width: 70px;
+        position: absolute;
+        top: 20px;
+        right: 2%;
+        font-size: 16px;
+        color: $white;
+        background: $linear2;
+        border-radius: 100px;
+        padding: 10px 17px;
+
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            background: $linear1;
+        }
+    }
+
+}
+#error_message {
+    display: none;
+    font-size: 12px;
+    color: $soft_red;
+    text-align: left;
+    margin-left: 30px;
+}
